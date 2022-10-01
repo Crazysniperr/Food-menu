@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'roboto',sans-serif;
+    align-items: center;
+
+}
+
+.header {
+    padding: 0px;
+    margin: 0px;
+    background-color: #1AC073;
+    font-family: 'roboto',sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+
+}
+.main-logo{
+    align-items: center;
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Squada One', cursive;
+    margin-left: 131px;
+}
+.header ul {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+.header a{
+    color: #fff;
+    text-decoration: none;
+    padding: 30px;
+}
+.header a:hover{
+    color: #dddddd;
+}
+.icons{
+    margin-right: 108px;
+    display: flex;
+
+}
+.icons img{
+    padding: 15px;
+    width: 100%;
+    height: 55px;
+}
+
+.landing-section{
+    width: 100%;
+    height: 800px;
+    left: 0px;
+    top: 0px;
+    background: #1AC073;
+
+}
+.landing-items-container{
+    padding-top: 250px;
+    padding-left: 131px;
+    padding-right: 185px;
+    padding-bottom: 52px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* padding: 0px; */
+    gap: 32px;
+
+    /* position: absolute; */
+    width: 534px;
+    height: 219px;
+    left: 0px;
+    top: 0px;
+}
+.main-title {
+    width: 534px;
+    height: 147px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 82px;
+
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.sub-title {
+    width: 441px;
+    height: 40px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+
+    letter-spacing: -0.012em;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.search-bar {
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    width: 398px;
+    height: 58px;
+    display: flex;
+    border-radius: 10px;
+}
+.search-bar input {
+    border: none;
+    outline: none;
+    background:rgb(255, 255, 255);
+    padding : 19px ;
+    padding-left: 22px;
+    padding-right: 80px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+.search-bar #button {
+    background: #F3BA00;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding : 19px 31px;
+    border-radius: 0px 10px 10px 0px;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+
+}
+
+.chef-img{
+    width: 481px;
+    height: 481px;
+
+}
