@@ -8,6 +8,7 @@
 body{
     font-family: 'roboto',sans-serif;
     align-items: center;
+    background-color: #F7F8FA;
 
 }
 
@@ -161,3 +162,90 @@ body{
     height: 481px;
 
 }
+
+.kitchen-item-container{
+    margin-top: 105px;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+.kitchen-title{
+    width: 250px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 24px;
+
+    letter-spacing: -0.012em;
+
+    color: #000000;
+    padding-bottom: 63px;
+}
+
+.card{
+    width: 277px;
+    height: 337px;
+    background: #FFFFFF;
+}
+.food-img img{
+    max-width: 277px;
+    max-height: 250px;
+    left: 0px;
+    top: 0px;
+
+
+    border-radius: 10px 10px 0px 0px;
+
+}
+.food-text{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.part1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 16px;
+}
+.part2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 16px;
+    
+}
+.food-rating{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.food-rating div{
+    padding: 4px;
+    background:#F7F8FA;
+    border-radius : 10px;
+    
+}
+.rate{
+    margin-right: 19px;
+}
+.rate img{
+    padding-right: 3px;
+}
+.food-cards-1,.food-cards-2,.food-cards-3{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 39px;
+
+}
+.food-grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+}
+
